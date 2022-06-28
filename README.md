@@ -10,12 +10,12 @@ Five Epochs were used to attain ~95% accuracy on the training set, which resulte
 
 ## Choices Made
 ### Training Parameters
-..* Batch size is the number of samples processed before the model is updated.
-..* dropout_p will be used in the torch.nn.Dropout2d() module. p is the probability of an element to be zero-ed.[6]
-..* color_scale is used as an input channel for the first convolutional layer. The images are gray scale, so the value is 1. If the images were RGB, then the value would be 3.
+* Batch size is the number of samples processed before the model is updated.
+* dropout_p will be used in the torch.nn.Dropout2d() module. p is the probability of an element to be zero-ed.[6]
+* color_scale is used as an input channel for the first convolutional layer. The images are gray scale, so the value is 1. If the images were RGB, then the value would be 3.
 
 ### Build & Initialize Model
-..* kernel_size sets the size of the filter. A kernel_size of 5 sets the filter to 25x25
+* kernel_size sets the size of the filter. A kernel_size of 5 sets the filter to 25x25
 
 # Chapter Nine of Deep Learning by Ian Goodfellow and Yoshua Bengio and Aaron Courville was used as a reference to develop the model.
 
