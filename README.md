@@ -6,7 +6,7 @@ The MNIST dataset is a preprocessed and cleaned dataset.  The dataset used was m
 ## Convolutional Neural Network
 The goal is to accurately identify handwritten digits.  Due to the grid-like topology of the images, the CNN was the algorithm chosen for optimal results. <br /> <br />
 
-Five Epochs were used to attain ~95% accuracy on the training set, which resulted in ~94% accuracy on the test set. <br />
+Five Epochs were used to attain ~96% accuracy on the training set, which resulted in ~95% accuracy on the test set. <br />
 
 ## Choices Made
 ### Training Parameters
